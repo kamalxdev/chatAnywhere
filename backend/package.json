@@ -5,12 +5,15 @@
   "main": "./src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsc -b && nodemon ./dist/index.js"
+    "dev": "tsc -b && nodemon ./dist/index.js",
+    "tsc": "tsc -b"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.1",
+    "socket.io": "^4.7.5",
     "typescript": "^5.4.3"
   },
   "devDependencies": {
